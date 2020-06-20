@@ -1,0 +1,55 @@
+.song {
+    display: grid;
+    grid-template-areas:  
+        'play album name duration'
+        'play album artist duration'
+    ;
+    grid-template-columns: 45px 45px minmax(100px, 450px) 60px;
+    max-width: 600px;
+    min-width: 300px;
+
+    --clr-black: #241126;;
+    --clr-light-pink: #D99F7E;;
+    --clr-gray: #D9CCC5;
+    --clr-brown: #734838; 
+    --clr-pink: #D9967E;
+
+    align-items: center;
+    padding: 0;
+    margin: .5em;
+    background-color: var(--clr-pink);
+    color: var(--clr-brown);
+    border-radius: 5px;
+}
+
+.play {
+    margin: 0.5em;
+    grid-area: play;
+    height: 70%;    
+    background-color: var(--clr-gray);
+    color: var(--clr-brown);
+    border-radius: 100%;
+    border: none;
+}
+
+.album {
+    margin: 0; 
+    grid-area: album;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.name {
+    margin: 0; 
+    grid-area: name;
+}
+
+.artist {
+    margin: 0;
+    grid-area: artist;
+}
+
+.duration {
+    margin: 0;
+    grid-area: duration;
+}

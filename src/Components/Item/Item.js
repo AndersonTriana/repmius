@@ -1,12 +1,18 @@
 import React from 'react'
 import './Item.css'
+import Album from '../../Images/album.jpg'
 
 function Item(props) {
     return(
         <div className='item'>
-            <img className='item-img' src={props.data.img}></img>
+            <img className='img' src={Album} alt='image'></img>
 
-            <h3 className='item-name'></h3>
+            <button className='play'>
+                <i class="fas fa-play"></i>
+            </button>
+
+            <h3 className='name'>DNA</h3>
+            <p className='type'>Kendrick Lamar</p>
         </div>
     )
 }

@@ -1,0 +1,45 @@
+.item {
+    --clr-black: #241126;;
+    --clr-light-pink: #D99F7E;;
+    --clr-gray: #D9CCC5;
+    --clr-brown: #734838; 
+    --clr-pink: #D9967E;
+    
+    display: flex;
+    flex-direction: column;
+    height: 13em;
+    width: 10em;
+    background-color: var(--clr-pink);
+    color: var(--clr-brown);
+    align-items: center;
+    border-radius: 10px;
+    margin: .5em;
+}
+
+.img {
+    width: 8em;
+    heigth: 8em;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.item .play {
+    margin-top: -3.5em;
+    margin-right: -5em;
+    margin-bottom: 1.5em;
+    height: 2.5em;
+    width: 2.5em;
+    background-color: var(--clr-gray);
+    color: var(--clr-brown);
+    border-radius: 100%;
+    border: none;
+}
+
+.name {
+    margin: 0;
+}
+
+.type {
+    margin: 0;
+
+}

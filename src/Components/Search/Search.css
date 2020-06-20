@@ -1,0 +1,39 @@
+.header {
+    --clr-black: #241126;;
+    --clr-light-pink: #D99F7E;;
+    --clr-gray: #D9CCC5;
+    --clr-brown: #734838; 
+    --clr-pink: #D9967E;
+    display: flex;
+    max-height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--clr-pink);
+}
+
+.search {}
+
+.text {
+    background-color: var(--clr-gray);
+    color: var(--clr-brown);
+    border: none;
+    width: 200px;
+    height: 2em;
+}
+
+.text::placeholder {
+    color: var(--clr-brown)
+}
+
+.button {
+    background-color: var(--clr-gray);
+    color: var(--clr-brown);
+    border: none;
+    height: 2.1em;
+    margin-left: .5em;
+}
+
+.logo {
+    width: 50px;    
+}
+
