@@ -37,7 +37,7 @@ class Search extends Component {
                         value={search}
                     ></input>
 
-                    <button className='button'>Buscar</button>
+                    <button className='button'><strong>Buscar</strong></button>
                 </div>
 
                 <img className='logo' src={Logo}></img>

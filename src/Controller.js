@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import Item from './Components/Item/Item'
 import Search from './Components/Search/Search'
 import Song from './Components/Song/Song' 
+import Player from './Components/Player/Player'
+import Album from './Components/Album/Album'
+import Artist from './Components/Artist/Artist'
+
 
 class Controller extends Component {
     constructor() {
@@ -30,6 +34,9 @@ class Controller extends Component {
                 <Search />
                 <Song />   
                 <Item />
+                <Player />
+                <Album />
+                <Artist />
             </div>
             
         )
