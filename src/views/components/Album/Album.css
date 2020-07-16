@@ -1,0 +1,11 @@
+.album {
+    --clr-black: #241126;
+    --clr-light-pink: #D99F7E;
+    --clr-gray: #D9CCC5;
+    --clr-brown: #734838; 
+    --clr-pink: #D9967E;
+
+    border: solid 10px black;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,29 @@
+.player {
+    display: flex;
+    border: solid 3px var(--clr-brown);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player-photo {
+    width: 64px;
+    height: 64px;
+    margin: 0;
+}
+
+.player-info {
+    width: 30%;
+    margin-left: -150px;
+}
+
+.player-name {
+    margin: 0;
+}
+
+.player-artist {
+    margin: 0;
+}
+
+.player-controls {
+    
+}

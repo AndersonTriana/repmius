@@ -15,10 +15,10 @@ class Artist extends Component {
             <div className='artist'>
                 <div className='artist-header'>
 
-                    <img className='artist-background' src=''/>
+                    <img className='artist-background' src='' alt='Artist'/>
 
                     <div className='verified'>
-                        <i class="fas fa-check-circle"/>
+                        <i className="fas fa-check-circle"/>
 
                         <h4 className='comment'>Artista verificado</h4>
                     </div>
